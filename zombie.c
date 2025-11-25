@@ -11,7 +11,7 @@ int main() {
         printf("Child process PID: %d\n", pid);
 
         // Sleep so that the child becomes zombie
-        sleep(30);  // Check the process table during this time
+        sleep(5);  // Check the process table during this time
         printf("Parent woke up. Exiting now.\n");
     }
     else if (pid == 0) {

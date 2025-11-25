@@ -7,5 +7,5 @@ BEGIN {
     fact = 1
     for (i = 1; i <= n; i++)
         fact = fact * i
-    print "Factorial of", n, "is:", fact"
+    print "Factorial of", n, "is:", fact
 }
